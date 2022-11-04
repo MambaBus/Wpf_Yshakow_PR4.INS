@@ -94,5 +94,29 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="2F1rPjhbGq_iTaAXaQ60ym6PQnmaulptk0sFE5fL5LpEGlST574DF_Rt7qwudaT66yTCLuiEUIWpfeUFta2G-Rvl.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="kIY-suVIkcY.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ZXzt6I4nJ4uw7gh52gq0WkH7E2FoLogIAMrYryX5C_rs2SSR6wTauGhKDoeHZPXwPSgslvLaZ--eIBM1CMRt0ods.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="AKedOLRo3Pco0uFcP7MNW8qjTn-xt_H-BTUcSp1cJ3oWs176-c-k-c0x00ffffff-no-rj.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="загружено.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="fJSTlatnP-wF9zisbhbq_XZnzWZoARzSe6xUdKbgxvBb_hVjZMG4XMv3hUMZO8eUbEa6Msw8A3N4PfYIj2Eq8IK1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Снимо21к.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="aYQM7RqnOm-sUppsmxmbuLqMcWMEQL9bD8FY-fI4SxK8VLKxebMayWnqw0t4baVjiOvAG8cU3ytFMtlpC6Mmg5KH.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

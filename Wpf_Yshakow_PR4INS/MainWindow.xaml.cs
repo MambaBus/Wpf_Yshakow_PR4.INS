@@ -24,5 +24,37 @@ namespace Wpf_Yshakow_PR4INS
         {
             InitializeComponent();
         }
+        int a;
+        int b;
+        int x;
+
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            b = Int32.Parse(cheslo1.Text);
+            Random r = new Random();
+            x = r.Next(b);
+        }
+
+    
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            a = Int32.Parse(cheslo2.Text);
+
+
+            if (a == x)
+            {
+                label1.Content = "Вы угадали";
+            }
+            else if (a > x)
+            {
+                label1.Content = "Меньше";
+            }
+            else
+            {
+                label1.Content = "Больше";
+            }
+        }
     }
 }

@@ -5,13 +5,18 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Wpf_Yshakow_PR4INS"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="400">
+        Title="MainWindow" Height="460" Width="420">
     <Grid>
-        <TextBlock HorizontalAlignment="Center" FontSize="20" Margin="10">Угадай число</TextBlock>
-        <TextBlock HorizontalAlignment="Left"  Margin="5,50,0,347" Width="180" FontSize="15">Введите число от 0 до N :</TextBlock>
-        <TextBox Height="20" Margin="190,53,10,346"/>
-        <Button Height="30" Width="100" Margin="143,78,149,311">Сохранить</Button>
-        
-
+        <Grid.Background>
+            <ImageBrush ImageSource="2F1rPjhbGq_iTaAXaQ60ym6PQnmaulptk0sFE5fL5LpEGlST574DF_Rt7qwudaT66yTCLuiEUIWpfeUFta2G-Rvl.jpg"/>
+        </Grid.Background>
+        <TextBlock HorizontalAlignment="Center" FontSize="20" Margin="135,10,135,374">Угадай число</TextBlock>
+        <TextBlock HorizontalAlignment="Left"  Margin="5,45,0,352" Width="180" FontSize="15">Введите число от 0 до N :</TextBlock>
+        <TextBox x:Name="cheslo1" Height="20" Margin="190,47,10,352"/>
+        <Button Height="30" Width="100" Margin="143,78,149,311" Click="Button_Click">Сохранить</Button>
+        <Button Height="30" Width="100" Margin="143,168,149,221" Click="Button_Click_1">Начать</Button>
+        <TextBlock Width="200" FontSize="15" Margin="95,113,97,281" >Введите число для разгадки</TextBlock>
+        <TextBox x:Name="cheslo2" Height="20" Margin="95,143,105,256"/>
+        <Label x:Name="label1" Content="" HorizontalAlignment="Left" Margin="145,216,0,0" VerticalAlignment="Top" Width="123" Background="{x:Null}" FontSize="18"/>
     </Grid>
 </Window>
